@@ -20,6 +20,7 @@ jobs:
    build_maven:
      name: build_maven
      runs-on: ubuntu-latest
+     needs: sonar_scanner
      steps:
        - uses: actions/checkout@v2
        - name: Set up JDK 14
