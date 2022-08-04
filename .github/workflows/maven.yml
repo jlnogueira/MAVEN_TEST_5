@@ -5,7 +5,7 @@ on:
      branches: [ master ]
  pull_request:
      branches: [ master ]
-
+#teste
 jobs:
    sonar_scanner:
      name: sonar_scanner
