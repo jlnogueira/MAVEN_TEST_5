@@ -15,7 +15,7 @@ jobs:
          uses: sonarsource/sonarqube-scan-action@master
          env:
            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-           SONAR_URL: https://sonarcloud.io/projects
+           SONAR_HOST_URL: https://sonarcloud.io/projects
         
    build_maven:
      name: build_maven
